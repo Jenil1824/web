@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <title></title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins';
+            box-sizing: border-box;
+        }
+
+        .blur {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(2px);
+            height: 100%;
+            width: 100%;
+        }
+
+        .jenil {
+            height: 100%;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .jenil .card {
+            position: relative;
+            max-width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.5);
+            margin: 50px 10px;
+            margin-right: 30px;
+            padding: 30px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 202px rgba(243, 239, 239, 0.5);
+            transition: 0.3s ease-in-out;
+        }
+
+        .jenil .card:hover {
+            height: 320px;
+        }
+
+        .jenil .card .imgbx {
+            position: relative;
+            width: 260px;
+            height: 200px;
+            top: -60px;
+            left: 6px;
+        }
+
+        .jenil .card .imgbx img {
+            max-width: 100%;
+            margin-right: 30px;
+            border-radius: 4px;
+        }
+
+        .jenil .card .content {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: rgb(249, 245, 245);
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .jenil .card:hover .content {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.2s;
+        }
+
+        .bg {
+            background-image: url("photos.jpg/8ab13e55-427f-4a84-836a-dd230d8b8fdd.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .blur {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(2px);
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="nav-bar">
+            <div class="container">
+                <img style="float:left" src="img/logo.jpg" alt="Logo" height="6%" width="6%" >
+
+                <h1 class="logo"><a href="index.html">The Palms</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="rooms.html">Rooms</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+            <center>
+                <hr style="height:5px;background:rgb(9, 9, 9); ">
+                <br>
+                <h1 style="color: rgb(245, 246, 247); ">
+                    Rooms
+                </h1><br>
+                <hr style="height:5px;background:rgb(7, 7, 7); ">
+            </center>
+            <div class="jenil">
+                <div class="card">
+                    <div class="imgbx">
+                        <a href="img/single.jpg"> <img src="img/single.jpg">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h2>
+                            Single Person Room
+                        </h2><br>
+                        <p>Click here for all the Information about Single Person Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/twin.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Twin Bedroom</h2>
+                        <p>Click here for all the Information about Twin Bedroom.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/family.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Family Stay</h2>
+                        <p>Click here for all the Information about Family Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/deluxe.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Deluxe Room</h2>
+                        <p>Click here for all the Information about Deluxe Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/luxury.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Luxury Room</h2>
+                        <p>Click here for all the Information about Luxury Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/beach.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Beach</h2>
+                        <p>Click here for all the Information about Beach Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/morden.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Morden Room</h2>
+                        <p>Click here for all the Information about Mordan Room.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx">
+                        <img src="img/royal.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Royal</h2>
+                        <p>Click here for all the Information about Royal Room.
+                        </p>
+                    </div>
+                </div>
+
+
+                  <div class="wrapper">
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <span>Twitter</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <span>YouTube</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
